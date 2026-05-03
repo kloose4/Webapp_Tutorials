@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="de"> <!-- Diese Zeile definiert den Dokumenttyp und die Sprache der Seite, hier Deutsch (de) -->
+<head>
+    <meta charset="UTF-8"> <!-- Diese Zeile legt die Zeichenkodierung der Seite fest, hier UTF-8, was die meisten Zeichen unterstützt -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Diese Zeile sorgt dafür, dass die Seite auf die Größe von mobilen Geräten angepasst wird -->
+    <title>Einkaufsliste</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+<h1>Willkommen zur Einkaufsliste</h1>
+<p>Hier können Sie Produkte verwalten.</p>
+<img src="{{ url_for('static', filename='images/einkaufswagen.png') }}" alt="Einkaufswagenen Bild"> <!-- Diese Zeile fügt ein Bild ein, das im Ordner "static/images" gespeichert ist -->
+<h2>Einkaufsliste</h2>
+<table>
+    <tr>
+        <th>Produkt-ID</th>
+        <th>Produkt</th>
+        <th>Menge</th>
+        <th>Einheit</th>
+        <th>Erledigt?</th>
+        <th>Gekauft!</th>
+    </tr>
+    {% for produkt in produkte %} <!-- Diese Zeile startet eine Schleife, die durch die Liste "produkte" iteriert, die vom Flask-Backend übergeben wird -->
+    <tr>
+        <td>{{ produkt[0] }}</td> <!-- ProduktID -->
+        <td>{{ produkt[1] }}</td> <!-- Produkt -->
+        <td>{{ produkt[2] }}</td> <!-- Menge -->
+        <td>{{ produkt[3] }}</td> <!-- Einheit -->
+        <td>{% if produkt[4] %}✅{% else %}❌{% endif %}</td> <!-- Erledigt? -->
+        <td>
+            <form action="/update" method="post">
+                <input type="hidden" name="produkt_id" value="{{ produkt[0] }}">
+                <button type="submit">Gekauft!</button>
+            </form>
+    </tr>
+    {% endfor %} <!-- Ende der Schleife -->
+</table>
+
+<!-- Buttons für verschiedene CRUD-Aktionen -->
+
+<form action="/read" method="get">   <!-- Hier ist die Methode "get", weil wir Daten abrufen, aber nicht ändern -->
+    <button type="submit">Abfragen</button>
+</form>
+<br>
+<h3>Produkt hinzufügen</h3>
+<form action="/create" method="post">
+    <input type="text" name="produkt" placeholder="Produkt">
+    <input type="number" name="menge" placeholder="Menge">
+    <input type="text" name="einheit" placeholder="Einheit">
+    <button type="submit">Hinzufügen</button>
+</form>
+
+</form>
+</body>
+</html>
+

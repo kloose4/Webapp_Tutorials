@@ -10,12 +10,12 @@
 <ul>Befehl "cd C:\Program Files\Python314\Scripts"</ul>
 <ul>Befehl "pip install Flask"</ul>
 
-<h2>Einen Projekt erstellen:</h2>
+<h2>Ein Projekt erstellen:</h2>
 <ul>Erstelle einen neuen Projektordner, bspw. "Webapp".</ul>
 <ul>Öffne diesen Ordner mit Visual Studio Code.</ul>
 <ul>Erstelle eine erste Python-Datei, bspw. "app.py".</ul>
 
-<img width="348" height="160" alt="testen" src="https://github.com/user-attachments/assets/e96a7409-dba1-40e3-8f5c-a9f233e9dd55" />
+<ul><img width="826" height="154" alt="testen" src="https://github.com/user-attachments/assets/24088fc2-175b-4d62-b63b-d5129f1073fb" /></ul>
 
 <h2>Die App ausführen und testen:</h2>
 <ul>Starte die Datei "app.py".</ul>

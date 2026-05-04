@@ -9,3 +9,9 @@
 <ul>Öffne auf der Festplatte C:\ eine Eingabeaufforderung (Du kannst nach "cmd64.exe" suchen).</ul>
 <ul>Befehl "cd C:\Program Files\Python314\Scripts"</ul>
 <ul>Befehl "pip install Flask"</ul>
+
+<h2>Die App ausführen und testen:</h2>
+<ul>Starte die Datei "app.py".</ul>
+<ul>Im Terminal wird die Ausgabe "Running on ..." erzeugt, und es wird eine IP-Adresse mit einem Port angezeigt (z.B. 127.0.0.1:8080)</ul>
+<ul>Klicke diese Adresse mit "STRG" + "linke Maustaste" an.</ul>
+<ul>Nun sollte sich dein Browser mit der Webapp öffnen.</ul>

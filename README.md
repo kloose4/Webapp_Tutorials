@@ -7,7 +7,7 @@
 
 <h2>Flask installieren:</h2>
 <ul>Öffne auf der Festplatte C:\ eine Eingabeaufforderung (Du kannst nach "cmd64.exe" suchen).</ul>
-<ul>Befehl "cd C:\Program Files\Python314\Scripts"</ul>
+<ul>Befehl "cd C:\Program Files\Python314\Scripts" <-- Es kann sein, dass Python bei dir woanders gespeichert ist.</ul>
 <ul>Befehl "pip install Flask"</ul>
 
 <h2>Ein Projekt erstellen:</h2>

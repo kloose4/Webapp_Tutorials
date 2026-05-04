@@ -19,9 +19,11 @@
 
 <h2>Die App ausführen und testen:</h2>
 <ul>Starte die Datei "app.py".</ul>
-<ul>Im Terminal wird die Ausgabe "Running on ..." erzeugt, und es wird eine IP-Adresse mit einem Port angezeigt (z.B. 127.0.0.1:8080)</ul>
+<ul>Im Terminal wird die Ausgabe "Running on ..." erzeugt, und es wird eine IP-Adresse mit einem Port angezeigt (z.B. 127.0.0.1:5000)</ul>
 <ul>Klicke diese Adresse mit "STRG" + "linke Maustaste" an.</ul>
 <ul>Nun sollte sich dein Browser mit der Webapp öffnen.</ul>
+<ul><img width="206" height="71" alt="testbild_browser" src="https://github.com/user-attachments/assets/4cefb264-2027-4c54-af16-e77e53d3553d" /></ul>
+
 
 <h2>Ein Repository klonen:</h2>
 <ul>Erstelle einen neuen, leeren Ordner und öffne diesen mit Visual Studio Code.</ul>

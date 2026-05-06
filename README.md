@@ -30,6 +30,14 @@
 <ul>In diesem Beispiel nennen wir die Datei startseite.html</ul>
 <ul><img width="1127" height="395" alt="html_bsp" src="https://github.com/user-attachments/assets/38b1a46d-0150-409e-b987-a6bad9ec1ce0" /></ul>
 
+<h2>Die HTML-Datei als Template für die Web-App nutzen:</h2>
+<ul>Damit die Seite mit Hilfe der HTML-Datei strukturiert wird, müssen wir die Datei app.py anpassen.</ul>
+<ul>Dafür verwenden wir das Modul "render_template".</ul>
+<ul>Dieses Modul importieren wir. --> "from flask import render_template"</ul>
+<ul>Wir ersetzen den Test-Text "Dies ist ein Test" mit "render_template('startseite.html') <-- hier ist nun der Name der HTML-Datei wichtig</ul>
+<ul>Flask wird nun statt des Test-Textes die HTML-Datei laden und anzeigen.</ul>
+<ul>Nun können wir die Seite neu laden und schauen, ob es funktioniert hat.</ul>
+
 <h2>Ein Repository klonen:</h2>
 <ul>Erstelle einen neuen, leeren Ordner und öffne diesen mit Visual Studio Code.</ul>
 <ul>Öffne in Visual Studio Code ein neues Terminal.</ul>

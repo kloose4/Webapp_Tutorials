@@ -35,7 +35,7 @@
 <ul>Damit die Seite mit Hilfe der HTML-Datei strukturiert wird, müssen wir die Datei app.py anpassen.</ul>
 <ul>Dafür verwenden wir das Modul "render_template".</ul>
 <ul>Dieses Modul importieren wir. --> "from flask import render_template"</ul>
-<ul>Wir ersetzen den Test-Text "Dies ist ein Test" mit "render_template('startseite.html') <-- hier ist nun der Name der HTML-Datei wichtig</ul>
+<ul>Wir ersetzen den Test-Text "Dies ist ein Test" mit render_template('startseite.html') <-- hier ist nun der Name der HTML-Datei wichtig</ul>
 <ul>Flask wird nun statt des Test-Textes die HTML-Datei laden und anzeigen.</ul>
 <ul>Nun können wir die Seite neu laden und schauen, ob es funktioniert hat.</ul>
 

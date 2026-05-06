@@ -24,6 +24,11 @@
 <ul>Nun sollte sich dein Browser mit der Webapp öffnen.</ul>
 <ul><img width="206" height="71" alt="testbild_browser" src="https://github.com/user-attachments/assets/4cefb264-2027-4c54-af16-e77e53d3553d" /></ul>
 
+<h2>Die Web-App mit HTML strukturieren:</h2> 
+<ul>Im Seelauf-App-Ordner erstellen wir einen Unterordner mit dem Namen "templates". Dieser Ordner muss so benannt werden, da Flask automatisch in diesem Ordner nach HTML-Dateien sucht.</ul>
+<ul>Im Ordner "templates" erstellen wir eine HTML-Datei. Diese können wir benennen, wie wir wollen. Der Name wird jedoch zu einem späteren Zeitpunkt wieder relevant.</ul> 
+<ul>In diesem Beispiel nennen wir die Datei startseite.html</ul>
+<ul><img width="1127" height="395" alt="html_bsp" src="https://github.com/user-attachments/assets/38b1a46d-0150-409e-b987-a6bad9ec1ce0" /></ul>
 
 <h2>Ein Repository klonen:</h2>
 <ul>Erstelle einen neuen, leeren Ordner und öffne diesen mit Visual Studio Code.</ul>

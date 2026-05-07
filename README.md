@@ -80,6 +80,18 @@
 <img width="527" height="187" alt="screenshot styling" src="https://github.com/user-attachments/assets/25b80c35-792f-4672-97b2-70c0619f068b" />
 </ul>
 
+<h3>Erstellung einer Datenbank:</h3>
+
+<h3>Funktionen für Datenbankoperationen vorbereiten:</h3>
+
+<h3>Datenbankoperationen importieren:</h3>
+
+<h3>Datenverarbeitung mit HTML & Python:</h3>
+
+<h3></h3>
+
+<h3>Dateneingabe in der Web-App:</h3>
+
 <h2>Du möchtest dieses Projekt übernehmen und daran weiterarbeiten?</h2>
 <h3>Ein Repository klonen:</h3>
 <ul>

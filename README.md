@@ -30,7 +30,7 @@
 <li>Im Terminal wird die Ausgabe "Running on ..." erzeugt, und es wird eine IP-Adresse mit einem Port angezeigt (z.B. 127.0.0.1:5000)</li>
 <li>Klicke diese Adresse mit "STRG" + "linke Maustaste" an.</li>
 <li>Nun sollte sich dein Browser mit der Webapp öffnen.</li>
-<li><img width="206" height="71" alt="testbild_browser" src="https://github.com/user-attachments/assets/4cefb264-2027-4c54-af16-e77e53d3553d" /></li>
+<img width="206" height="71" alt="testbild_browser" src="https://github.com/user-attachments/assets/4cefb264-2027-4c54-af16-e77e53d3553d" />
 </ul>
 
 <h3>Die Web-App mit HTML strukturieren:</h3> 

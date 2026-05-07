@@ -69,12 +69,15 @@
 <li>Viel zu stylen gibt es in der HTML bisher nicht. Wir konzentrieren uns daher auf den Hintergrund, die Überschrift und einen Absatz.</li>
 <li><img width="468" height="271" alt="screenshot css" src="https://github.com/user-attachments/assets/74fb3650-70be-4224-92ff-ea660245c39f" /></li>
 <br>
-<li>Nun müssen wir in der HTML-Datei kenntlich machen, dass das Styling durch die styles.css angewendet werden soll.</li>
+<li>Nun müssen wir im Head der HTML-Datei kenntlich machen, dass das Styling durch die styles.css angewendet werden soll.</li>
 <li>In einer Flask-Anwendung funktioniert das etwas anders, als beim herkömmlichen HTML/CSS-Styling.</li>
 <li><img width="832" height="21" alt="screenshot link_rel css" src="https://github.com/user-attachments/assets/79ec1fe4-b117-4977-8a3a-f9cb3fc094f6" /></li>
 <li>Die geschweiften Klammern in einer HTML-Datei werden wahrscheinlich neu für dich sein.</li>
 <li>Das ist die Syntax von Jinja2, einer sogenannten Template-Engine für Python.</li>
 <li>Mit Jinja2 kann man Logik (Python) und Darstellung (HTML) miteinander verknüpfen.</li>
+<li>Später erfährst du noch mehr über Jinja2.</li>
+<li>So sieht die gestylte Web-App mittlerweile aus:</li>
+<li><img width="527" height="187" alt="screenshot styling" src="https://github.com/user-attachments/assets/25b80c35-792f-4672-97b2-70c0619f068b" /></li>
 </ul>
 
 <h2>Du möchtest dieses Projekt übernehmen und daran weiterarbeiten?</h2>
